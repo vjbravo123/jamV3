@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f8607bf.css",
+    "main.js": "/static/js/main.0b28cd26.js",
+    "static/js/787.d06df960.chunk.js": "/static/js/787.d06df960.chunk.js",
+    "static/media/ferdinand-stohr-NFs6dRTBgaM-unsplash.jpg": "/static/media/ferdinand-stohr-NFs6dRTBgaM-unsplash.9b0baeab4bfdfce1fae4.jpg",
+    "static/media/pexels-fwstudio-131683.jpg": "/static/media/pexels-fwstudio-131683.e90f2c80ddb90c9c7629.jpg",
+    "static/media/rm222batch3-kul-01.jpg": "/static/media/rm222batch3-kul-01.955032d788901a16ac02.jpg",
+    "static/media/building-4884852.jpg": "/static/media/building-4884852.94f0ad1c8192c862ba6b.jpg",
+    "static/media/pexels-matheus-natan-3297593.jpg": "/static/media/pexels-matheus-natan-3297593.0cf07adacea65d639f88.jpg",
+    "static/media/pexels-pixabay-268415.jpg": "/static/media/pexels-pixabay-268415.8602aa9d327f574bbffb.jpg",
+    "static/media/3386851.jpg": "/static/media/3386851.9acbd0a2299d623a21f0.jpg",
+    "static/media/Image_1680002698.jpg": "/static/media/Image_1680002698.984354935773654debcd.jpg",
+    "static/media/naac3.jpg": "/static/media/naac3.f2ae35fb9f54d6365a98.jpg",
+    "static/media/logo2.jpg": "/static/media/logo2.9190b8e7e1f0fcf968db.jpg",
+    "static/media/Icons8-Christmas-Flat-Color-Snowflake.512.png": "/static/media/Icons8-Christmas-Flat-Color-Snowflake.512.a7329013f1ab983f3a97.png",
+    "static/media/logo.jpg": "/static/media/logo.ddb252b92aad513ef276.jpg",
+    "index.html": "/index.html",
+    "main.8f8607bf.css.map": "/static/css/main.8f8607bf.css.map",
+    "main.0b28cd26.js.map": "/static/js/main.0b28cd26.js.map",
+    "787.d06df960.chunk.js.map": "/static/js/787.d06df960.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f8607bf.css",
+    "static/js/main.0b28cd26.js"
+  ]
+}

@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+
+.bg {
+
+   background-image: url("../images/pexels-matheus-natan-3297593.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: 100vw 120vh; 
+  height: 120vh;
+  margin-top: -8vh;
+
+}
+
+.ig {
+  display: block;
+  max-width: 100%;
+  height: 115px;
+  margin-top: 6px;
+}
+
+.flex {
+
+  display: flex;
+  overflow: hidden;
+  height: 25vh;
+  justify-content: center;
+  border: 1px solid red;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0px 140px;
+  padding-top: 4px;
+  margin-top: -24px;
+}
+
+.ig2 {
+  height: 20vh;
+}
+
+
+
+.bg h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #444444;
+  padding-top: 100px;
+}
+
+.login {
+
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 80%;
+  max-width: 600px;
+
+  box-shadow: 0px 0px 20px #93ede7;
+}
+
+.bg button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.bg button:hover {
+  color: #666;
+}
+
+
+.bg button {
+  text-decoration: none;
+  color: #444444;
+}
+
+.bg button p {
+  margin-left: 7px;
+}
+
+.bg h2 {
+  margin-left: -24px;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #2B2B2B;
+}
+
+.bg p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #666666;
+}
+
+.bg button:hover h2 {
+  color: #3E50B4;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: fixed;
+  width: 240px;
+  right: -240px;
+  height: 100%;
+  background: #1e1e1e;
+  transition: all .5s ease;
+}
+
+.sidebar header {
+  font-size: 28px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #1b1b1b;
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar a {
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: white;
+  line-height: 65px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  border-left: 5px solid transparent;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .5s ease;
+}
+
+
+a.active:hover {
+  border-left: 5px solid #b93632;
+  color: #b93632;
+}
+
+.sidebar a i {
+  font-size: 23px;
+  margin-right: 16px;
+}
+
+.sidebar a span {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#check {
+  display: none;
+}
+
+label #btn,
+label #cancel {
+  position: absolute;
+  cursor: pointer;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid #262626;
+  margin: 4vh 93vw;
+  /* margin: 26px 1300px */
+  font-size: 29px;
+  background: #262626;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  transition: all .5s ease;
+}
+
+label #cancel {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#check:checked~.sidebar {
+  right: 0;
+}
+
+#check:checked~label #btn {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#check:checked~label #cancel {
+  right: -73vw;
+  position: fixed;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+@media(max-width:1200px) {
+
+  #check:checked~label #cancel {
+    right: -70vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:1050px) {
+
+  #check:checked~label #cancel {
+    right: -69vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:1000px) {
+
+  #check:checked~label #cancel {
+    right: -67vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:900px) {
+
+  #check:checked~label #cancel {
+    right: -65vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width : 860px) {
+  .flex {
+    margin-top: -24px;
+    padding: 0px 45px;
+    height: 18vh;
+  }
+
+  .bg h1 {
+    margin-top: 36px;
+  }
+
+  .ig {
+    display: block;
+    max-width: 100%;
+    height: 115px;
+    margin-top: 12px;
+  }
+
+  .ig2 {
+    height: 10vh;
+    width: 58%;
+    margin-top: 12px;
+  }
+
+  #check:checked~label #cancel {
+    right: -63vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:810px) {
+
+  #check:checked~label #cancel {
+    right: -60vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:750px) {
+
+  #check:checked~label #cancel {
+    right: -57vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+  label #btn{
+    margin: 4vh 90vw;
+  }
+}
+
+@media(max-width:650px) {
+  label #btn {
+    margin: 4vh 88vw;
+  }
+
+  #check:checked~label #cancel {
+    right: -50vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:550px) {
+  label #btn {
+    margin: 4vh 86vw;
+  }
+  #check:checked~label #cancel {
+    right: -45vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:500px) {
+  label #btn {
+    margin: 4vh 84vw;
+  }
+
+  #check:checked~label #cancel {
+    right: -40vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:450px) {
+
+  #check:checked~label #cancel {
+    right: -35vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:400px) {
+
+  #check:checked~label #cancel {
+    right: -28vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media(max-width:370px) {
+
+  #check:checked~label #cancel {
+    right: -22vw;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+
+
+
+
+
+@media(max-width : 860px) {
+  .flex {
+    margin-top: -23px;
+    padding: 0px 8px;
+    height: 20vh;
+  }
+
+}
+@media(max-width : 700px) {
+  .bg {
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+
+    /* background-image: url("../images/rm222batch3-kul-01.jpg"); */
+    /* background-image: url("../../images/rm222batch3-kul-01.jpg"); */
+  }
+
+  .flex {
+    margin-top: -23px;
+    padding: 0px 8px;
+    height: 15vh;
+  }
+
+  .ig {
+    display: block;
+    max-width: 100%;
+    height: 60px;
+    margin-top: 15px;
+  }
+
+  .ig2 {
+    height: 8vh;
+    width: 60%;
+    margin-top: 8px;
+
+  }
+
+}
+@media screen and (min-width:700px) and (max-width:1600px) {
+  .flexing{
+    visibility:hidden;
+    display: none;
+  }
+}
+@media screen and (min-width:10px) and (max-width:700px) {
+  .flex {
+    visibility: hidden;
+    display: none;
+  }
+
+.bg{
+  background-size: 100vw 120vh;
+  height: 120vh;
+  margin-top: -17vh;
+  padding-top: 100px;
+}
+
+  .ig {
+    margin-left: 30px;
+    border-radius: 50%;
+  }
+
+
+  .flex {
+    background-color: transparent;
+  }
+}
+@media screen and (min-width:700px) and (max-width:860px) {
+  .flex{
+    height: 22vh;
+  }
+}
+
+
